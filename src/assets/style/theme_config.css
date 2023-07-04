@@ -1,0 +1,156 @@
+/* 全站品牌色样式变量 */
+/* background: var(--brandColor); */
+/* background: var(--linearGradient1); */
+
+body {
+  /* 网站主要品牌色 */
+  --brandColor1: #e6ecff;
+  --brandColor2: #d5defa;
+  --brandColor3: #bbcbfa;
+  --brandColor4: #aabcf2;
+  --brandColor5: #91a9f3;
+  --brandColor6: #7997f2;
+  --brandColor7: #6d8ef2;
+  --brandColor8: #5076e6;
+  --brandColor9: #3864e6;
+  --brandColor: #2354e6;
+  --brandColor11: #1b41b3;
+
+  /* 品牌数码绿 */
+  --brandGreen1: #e6fff7;
+  --brandGreen2: #d5faed;
+  --brandGreen3: #b5f2de;
+  --brandGreen4: #9df2d6;
+  --brandGreen5: #85f2ce;
+  --brandGreen6: #79f2c9;
+  --brandGreen7: #5fedbe;
+  --brandGreen8: #47ebb4;
+  --brandGreen9: #2febac;
+  --brandGreen: #17e6a1;
+  --brandGreen11: #13bf86;
+
+  /* tab浅蓝色背景 */
+  --tabBg: #f2f7ff;
+  /* 蓝色字背景底色,淡蓝色 */
+  --brandColorOpacity: #d1e8fe;
+  /*蓝色字背景底色 -暗色主题*/
+  --branColorOpacityDark: #e5ecff;
+  /* 菜单悬浮背景色 */
+  --brandColorMenuHover: #f8fafd;
+  /* 警告 提示 文字颜色 */
+  --warningColor: #e62323;
+  /* 渐变色 */
+  --linearGradient1: linear-gradient(90deg, #198cff 0%, #2354e6 100%);
+  --linearGradient2: linear-gradient(90deg, #16d9d9 0%, #198cff 100%);
+  --linearGradient3: linear-gradient(270deg, #16d9d9 0%, #17e6a1 100%);
+  --linearGradient4: linear-gradient(111.13deg, #e6f2ff 0%, #e0edff 52.61%, #e6ecff 100%);
+  /* 主体品牌色-加重(hover) */
+  --brandHoverColor: #1b41b2;
+
+  --brandRed: #CC3D3D;
+  /* 数字 涨跌 */
+  --brandDownGreen: #11AD7A;
+
+  /* 字体色 */
+  --colorFont1:#04091A;
+  --colorFont2: #565D73;
+  --colorFont3: #8D93A6;
+  --colorFont4: #B8BDCC;
+
+  --colorgray1:#04091A;
+  --colorgray2:#4D5366;
+  --colorgray3: #2A2F40;
+  --colorgray4:#C2C5CC;
+  --colorWhite: #FFFFFF;
+  --colorWhite2:#333333;
+
+
+  /* 按钮背景色 */
+  --btnGray: #f5f6fa;
+  --btnGray2: #f7f7f7;
+  --btnWhite: #ffffff;
+  --btnBlue: #1b41b3;
+
+  /* 辅助色 */
+  --green: #17e5a1;
+  --green2: #11AD7A;
+  --brandRed: #CC3D3D;
+  --colorYellow: #FF8C19;
+  --colorPurple: #B523E6;
+  --colorBlue: #198CFF;
+  --color-green2: #e1f8f2;
+  --color-blue: #e4f9fe;
+  --color-brown: #fff3e1;
+  --borderGray: #e6e9f2;
+  --borderBlue: #7796f0;
+  --iconGray: #c2c4cc;
+  --iconGray2: #6f768b;
+  --bgYellow: #FFFCF3;
+
+  /* NFT */
+  --nftBgColor: #f8f9fb;
+  --nftMenuBg: #ffffff;
+  --slideBg1: #eef1fa;
+  --slideBg2: #e6e9f2;
+  --nftColorGray1: #c2c5cc;
+  --nftColorGray2: #8d93a6;
+  --nftColorGray3: #565d73;
+  --nftColorGray4: #8d93a6;
+  --nftWhite1: #ffffff;
+  --nftBgMask: linear-gradient(
+    180deg,
+    rgba(248, 249, 251, 1) 0%,
+    rgba(248, 249, 251, 0.6) 50%,
+    rgba(248, 249, 251, 0.5) 85%,
+    rgba(248, 249, 251, 0) 100%
+  );
+  --nftLinearBg1: linear-gradient(
+    -84.41deg,
+    rgba(0, 207, 108, 0.1) 0%,
+    rgba(0, 159, 227, 0.1) 17.56%,
+    rgba(35, 84, 230, 0.1) 48.82%,
+    rgba(255, 38, 207, 0.1) 88.4%,
+    rgba(243, 237, 78, 0.1) 100%
+  );
+  --nftWhiteOPacity: rgba(255, 255, 255, 0.6);
+  --nftColorBlack: #000000;
+
+  /* 充提背景色 */
+  --dwBgColor: #FFFFFF;
+  --dwBgColor1: #EEEEEE;
+  --dwBgColor2: #EEF1FA;
+  --dwBgColor3: #F8F9FB;
+  --dwBgColor4: #F2F7FF;
+  /* 背景渐变 */
+  --dwLinear1:linear-gradient(#2354e60f 0%, #fff, #fff,#fff,#fff);
+  /* 充提 border color */
+  --dwBorderColor: #E6E9f2;
+  --dwBorderColor2: #E6E9f2;
+  /* 充提字色 */
+  --dwFontColor: #000000;
+  --dwFontColor1: #B8BDCC;
+  /* 按钮背景色 */
+  --dwDisableBnt: #E6E9F2;
+  /* 按钮字色 */
+  --dwDisableBntColor: #B8BDCC;
+
+  /*---------------------- 暗色----------------------- */
+  /* 暗色彈窗背景 */
+  --darkModalBg: #151926;
+  --fontTwoColor: #565D73;/* 二级字体 */
+  --fontSubColor: #8D93A6; /* 三级字体 */
+  --fontThirdSubColor: #8D93A6;
+  -webkit-font-smoothing: antialiased;
+}
+/* 品牌色样式 */
+.themeBrandColor {
+  color: var(--brandColor);
+}
+.themeBrandBackground {
+  background: var(--brandColor);
+}
+body.classic-dark, body.dark-body{
+  --fontTwoColor: #4D5366;
+  --fontSubColor: #989FB3;
+  --fontThirdSubColor: #4D5366;
+}

@@ -1,0 +1,201 @@
+
+.custom_modal_mask{
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  overflow-y: scroll;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.custom_modal_container {
+  border-radius: 5px;
+  background: var(--color-bg-3);
+  margin: auto;
+  border-radius: 16px;
+  width: 820px;
+  padding: 32px 40px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.custom_modal_title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  color: var(--color-text-1);
+}
+.custom_modal_close_btn {
+  position: absolute;
+  cursor: pointer;
+  top: 32px;
+  right: 32px;
+  width: 16px;
+  height: 16px;
+  color: var(--color-text-4);
+}
+
+.custom_modal_close_btn:hover {
+  color: var(--color-text-1);
+}
+
+.unified_account_open_desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--color-text-2);
+  margin: 16px auto;
+}
+
+.unified_account_open_intro {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--color-brand-1);
+  cursor: pointer;
+}
+.unified_account_open_intro:hover {
+  color: var(--color-brand-2);
+}
+
+.unified_account_open_checkbox_container {
+  display: grid;
+  grid-template-columns: 16px auto;
+  align-items: center;
+  column-gap: 8px;
+}
+
+.unified_account_open_checkbox {
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  position: relative;
+  border: 1px solid var(--color-text-4);
+  cursor: pointer;
+}
+.unified_account_open_checkbox_checked {
+  border: none;
+}
+.unified_account_open_checkbox_icon {
+  color: var(--color-brand-1);
+}
+
+.unified_account_open_checkbox_label {
+  color: var(--color-text-2);
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.unified_account_open_checkbox_label a {
+  color: var(--color-brand-1);
+  cursor: pointer;
+}
+
+.unified_account_open_container {
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: auto 322px;
+  column-gap: 40px;
+}
+
+.unified_account_open_content {
+
+}
+.unified_account_open_img {
+  background-image: url('/images/trade_components/open_unified_account_bg.png');
+}
+
+.classic-dark .unified_account_open_img {
+  background-image: url('/images/trade_components/open_unified_account_bg_dark.png');
+}
+
+.unified_account_open_content_title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  color: var(--color-text-1);
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 8px;
+}
+
+.unified_account_open_content_title:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 11px;
+  width: 8px;
+  height: 8px;
+  background-color: var(--color-funct-1);
+}
+
+.unified_account_open_content_desc {
+  color: var(--color-text-3);
+  line-height: 150%;
+}
+
+.unified_account_open_btn_group {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 24px;
+  margin-top: 40px;
+}
+
+.custom_modal_container button{
+  height: 52px;
+  line-height: 1;
+  width: 100%;
+  outline: 0;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.custom_modal_container .btn-primary {
+  color: #fff;
+  background-color: var(--color-brand-1);
+}
+.custom_modal_container .btn-primary:hover {
+  background-color: var(--color-brand-2);
+}
+.custom_modal_container .btn-primary:disabled {
+  color: var(--color-text-4);
+  background-color: var(--color-neutral-2);
+}
+.custom_modal_container .btn-cancel{
+  color: var(--color-color-1);
+  margin-right:16px;
+  background-color: var(--color-neutral-2);
+  height: 52px;
+  line-height: 52px;
+  padding-left: 32px;
+  padding-right: 32px;
+  font-size: 20px;
+}
+.custom_modal_container .btn-cancel:hover{
+  color: #fff;
+  background-color: var(--color-brand-1);
+}
+
+
+.margin_trade_rule_container {
+  margin-top: 16px;
+  display: grid;
+  column-gap: 40px;
+  grid-template-columns: auto 312px;
+}
+
+.margin_trade_rule_img {
+  height: 152px;
+  background-image: url('/images/trade_components/use_unified_account_bg.png');
+}
+.classic-dark .margin_trade_rule_img {
+  background-image: url('/images/trade_components/use_unified_account_bg_dark.png');
+}

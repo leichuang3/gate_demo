@@ -1,0 +1,73 @@
+:root:not(.theme-dark) {
+  --tv-color-toolbar-button-text: #565D73;
+}
+
+.theme-dark:root {
+  --tv-color-toolbar-button-text: #989FB3;
+}
+
+/* k线上增加快捷下单按钮样式 */
+.price-axis-tag {
+  position: absolute;
+  left: 1px;
+  display: none;
+  z-index: 11;
+  background: #222;
+  font-size: 10px;
+  height: 14px;
+  line-height: 14px;
+  padding: 2px 6px;
+  color: rgb(255, 255, 255);
+  user-select: none;
+  top: 100px;
+}
+
+.pro_future_order_wrap {
+  position: absolute;
+  right: 4px;
+  cursor: pointer;
+  user-select: none;
+  display: none;
+  background: #ADB5CC;
+  padding: 2px;
+  border-radius: 2px;
+}
+
+.pro_future_order_wrap:hover {
+  background: #2354E6;
+}
+
+.pro_future_order_wrap img {
+  width: 12px;
+  height: 12px;
+  cursor: pointer;
+}
+
+/* 隐藏时间选择前面的选项 */
+.sliderRow-1emAA4_D {
+  display: none;
+}
+
+.errorCard-1ZTLibqo {
+  display: none;
+}
+
+.chart-page {
+  background: #FEFEFF;
+}
+
+html.theme-dark .chart-page {
+  background: #11141E;
+}
+
+.button-yLOygoSG {
+  visibility: visible;
+}
+
+.button-15caiVtH {
+  display: none;
+}
+
+.dateRangeWrapper-2yU8ifXU{
+  display: none;
+}

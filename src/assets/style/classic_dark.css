@@ -1,0 +1,412 @@
+/* 暗黑 */
+body.classic-dark{
+    --fontSize: 14px;
+    --fontSizeSmall: 12px;
+    --brandRed: #F23D3D;
+    --colorGreen: #13BF86;
+    --bgRed: #F23D3D;
+    --bgGreen: #13BF86;
+    --bgRedHover: #E33D5B;
+    --bgGreenHover: #6BC287;
+    --bgColor: #151926;
+    --bgOpacityColor:#11141E;
+    --colorgray3: #989FB3;
+    --colorgray7:#474F66;
+    --colorFont1:#fff;
+    --brandColorMenuHover:#141C33;
+    --tabBg:#1F2433;
+    --inputBackground:#1F2433;
+    --proTradeBackground:#000;
+    --bgImageColor:#151926;
+    --switchBackgroundGray:#292f40;
+    --iconGray3: #474F66;
+    /** card hover 浅蓝背景*/
+    --cardHover:#0F1F4D;
+    --mainBlue: #3366FF;
+    --slideBg1: #2A2F40;
+    --colorFont3: #606880;
+    --transBtnHoverGreen: #078C61;
+    --transBtnHoverRed: #A33131;
+    --priceDown:#C23131;
+    --priceUp:#0F996B;
+    --whitePirce:#CFD0D2;
+    --btnSecond:#292B35;
+    /* 专业版文字 Text */
+    --pro-text-1: #989FB3;
+    --pro-text-2: #CFD0D2;
+    /**数字颜色*/
+    --pro-num-1: #CFD0D2;
+    /**警告颜色*/
+    --warning-text: #F2B500;
+    --warning-background: #212125;
+
+    --k-line-micro-icon-color: #b6bbc2;
+}
+
+/* 滚动条相关 */
+::-webkit-scrollbar
+{
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb
+{
+    background-color: hsla(215, 17%, 59%, 0.2);
+}
+
+.trading_panel .input-control input,.panel_shade .input-control input,.business_operation_advanced_content .advanced_input{
+  background: #222;
+}
+.iceberg-input:focus,.panel_shade .input-control input:focus,.trading_panel .input-control input:focus,.business_operation_advanced_content .advanced_input:focus{
+  border: 1px solid #999;
+  background: #222;
+}
+.handicap_analysis_title, .handicap_content_title {
+  background-color: #292929;
+}
+.highLight {
+	color: #eee;
+}
+.market-list-modal-container .iconarrow_down {
+    color:#fff;
+}
+
+.classic-dark .trading_panel li .tab_head_item {
+    background: var(--color-card-2);
+    color: var(--color-text-2);
+}
+
+
+
+
+.classic-dark .trade-slider-track div:first-child div {
+    background: #1F2433;
+    border-color: var(--mainBlue);
+    margin-top: 2px;
+}
+.classic-dark .trade-slider-track:before {
+    background: #1F2433;
+}
+
+.classic-dark .iceberg-checkbox-container input {
+    background: var(--inputBackground);
+    border: 1px solid #0f1526;
+}
+
+.classic-dark .set-switch-row .switch-label {
+    color: #ffffff;
+}
+.classic-dark .layout-view-item .layout-picture {
+    background-color: var(--proTradeBackground);
+}
+.classic-dark .myaccount-transfer #notyClose {
+    filter: invert(1)
+}
+.classic-dark #transfer-from-to #currA input, .classic-dark #transfer-from-to #currB input, .classic-dark .transfer_num .inputRate, .classic-dark .selector .selector-view {
+    background-color: #000;
+    border-color: #000 !important;
+    color: var(--color-text-1);
+}
+.classic-dark .trading-service-charge-container .trading-service-charge-rate {
+    background: linear-gradient(270deg, #2D3239 0%, #484D56 100%);
+}
+
+.toUporDown path:nth-child(1) {
+    stroke: #363c4e;
+    /* fill: #131722; */
+    fill: #6f6f6f;
+}
+.toUporDown path:nth-child(2) {
+    /* stroke: #9db2bd; */
+    stroke: #ffffff;
+}
+
+.no_record_icon {
+    background-image: url('/images/pro_trade/empty_icon_dark.svg');
+    margin-bottom: 10px;
+}
+
+.calculator-trade-modal {
+    background-color: #171A1E;
+}
+
+.base-number-input {
+    color: #fff;
+}
+
+.base-number-input::-webkit-input-placeholder {
+    color: var(--color-text-2) !important;
+}
+
+.base-number-input::-moz-input-placeholder {
+    color: var(--color-text-2) !important;
+}
+
+.base-number-input::-ms-input-placeholder {
+    color: var(--color-text-2) !important;
+}
+
+.calculator-trade-market {
+    color: #fff;
+}
+
+.calculator-modal-content {
+    color: #777;
+}
+
+.calculator-trade-risk-title {
+    color: #fff;
+}
+
+.calculator-trade-border{
+    border: 1px solid #2C3138 !important;
+}
+.trade-one-button{
+    border-left: 1px solid #2C3138;
+}
+.number-input {
+    border-right: 1px solid #2C3138 !important;
+    border-left: 1px solid #2C3138 !important;
+}
+.order_trade_tabs{
+    background-color: #151926;
+}
+.trade-input-container{
+    background: var(--inputBackground);
+}
+#transfer-from-to #currA  .selector-view{
+    background: var(--inputBackground)!important;
+}
+.flex-1{
+    background: var(--inputBackground);
+}
+.symbol_selected_input{
+    background: var(--inputBackground);
+}
+.transfer_number_show{
+    background: var(--inputBackground);
+}
+.assets-buttons div{
+    background: var(--inputBackground);
+}
+
+.trading-select-with-label, .trade-time-price-container {
+    background: var(--inputBackground);
+}
+.trade-slider-track div:first-child div {
+    background: var(--brandColor);
+    border-color: #fff;
+}
+.trade-slider-track:before {
+    background: #292f40 !important;
+}
+#bottom_group .order_trade_tabs_left{
+    background-color: transparent;
+}
+#noty_body input{
+    background: var(--inputBackground)!important;
+}
+#noty_body .selector-view {
+    background: var(--inputBackground)!important;
+    border:var(--inputBackground)!important;
+}
+#transfer-from-to #currA input{
+    background: var(--inputBackground)!important;
+}
+.noty_container_type_confirm{
+    border: none!important;
+}
+#noty_center_layout_container li.noty_container_type_confirm{
+    background: var(--bgColor)!important;
+}
+body.classic-dark .trade-market-tabs-item.active{
+    background: var(--inputBackground)!important;
+}
+
+
+
+.classic-dark .tab_body .trade-time-price-container input { background: transparent !important; }
+.classic-dark .tab_body .switch-group-container input:checked { background-color: var(--brandColor) !important; }
+.classic-dark .tab_body .trading_checkbox_icon { color: var(--brandColor) !important; fill: var(--brandColor) !important; }
+.classic-dark .dealbox .trading_checkbox_icon { color: var(--brandColor) !important; fill: var(--brandColor) !important; }
+.classic-dark .remind-row .trading_checkbox_icon { color: var(--brandColor) !important; fill: var(--brandColor) !important; }
+.classic-dark .tab_body .operation_submit button, .classic-dark .operation_submit button { color: #fff !important; }
+.classic-dark .operation_submit button:disabled { color: var(--color-text-4) !important; }
+.search-coin-container{background: #1F2433}
+.marketlist_view_item_coin .coin_en_name{
+    color:var(--color-text-1);
+}
+.order_cancellAll{
+    color:#3366ff;
+}
+.order_showMarket input{
+    border-color:#0f1526!important;
+    background: var( --tabBg);
+}
+.order_showMarket label{
+    color:var(--colorgray3);
+}
+/* .OrderTable table tr, td{
+    color:var(--colorFont3)
+} */
+.table_arrow_down{
+    color:var(--slideBg1)!important;
+    fill:var(--slideBg1)!important;
+}
+.TradeFooter .footer_line{
+    background: var(--slideBg1);
+}
+
+#order_table_id th{
+    border-bottom: 1px solid var(--slideBg1)!important;
+}
+
+
+
+.classic-dark .trade-panel-container {
+    background-color: #151926;
+}
+
+
+.chart_setting_dark{
+    fill:#fff!important
+}
+#simplekline .line-type-left{
+    background: transparent;
+}
+.trading_panel ul.tab_head{
+    background-color: var(--color-card-1);
+}
+.transfer_number_show{
+    border: none;
+}
+.transfer_number_show .transfer_all{
+    border-left: var(--slideBg1);
+}
+
+.assets_show_switch svg path{
+    fill: var(--color-text-1);
+}
+
+
+.marketList_type_top .market-sub-menu-item:hover,
+.chartHeader-Bitcoin,
+.coinInfoExist,
+.marketList_type_top .market-sub-menu-item.active,
+.market-type-item-name.active{
+    color:var(--color-text-1)
+}
+.setting_tab_change div,
+.orderTable_mu_default,
+.trade-panel-available-label,
+.dataSource>.dataSource-tabs div,
+.market-type-item-name,
+.chartHeader-info-right div :nth-child(1){
+    color: var(--color-text-2);
+}
+.trade-market-time>span,
+.trader-setting-type span,
+.chart-header-user-guide-button,
+.marketlist_head li{
+    color: var(--color-text-3);
+}
+.c-8D93A6,
+.trade-market-tabs-item .iconshanchu{
+    color: var(--color-text-4)!important;
+}
+
+.trade-volume{
+    color: var(--color-text-3);
+}
+.entrust_drow{
+    color:var(--color-neutral-1)!important
+}
+
+.chart-current-period-text .arrow,
+.icon_down_market,.info_icon_tips{
+    color: var(--color-text-1)!important;
+    fill: var(--color-text-1)!important;
+}
+
+.rise-red-body .font-add-color,
+.rise-green-body .font-dec-color{
+    color: var(--priceDown)!important;
+}
+.rise-red-body .font-dec-color
+,.rise-green-body .font-add-color{
+    color: var(--priceUp)!important;
+}
+
+.tooltip-target-text{
+    border-bottom: 1px dashed var(--color-text-4);
+    color:var(--color-text-1)
+}
+.TradeFooter,
+#headLayout{
+    background: var(--bgOpacityColor)!important;
+}
+.orderGroup_head .depth_interval{
+    background: var(--color-card-1);
+}
+.marketlist_view a{
+    color: var(--whitePirce);
+}
+.assets-buttons div{
+    background: var(--btnSecond);
+    color: var(--whitePirce);
+}
+.trade-volume{
+    color: var(--whitePirce)!important;
+}
+.sell_pending_order ::after{
+    background: var(--priceUp);
+}
+.buy_pending_order ::after{
+    background: var(--priceDown);
+}
+.average_pending_order::after{
+    background: var(--priceUp);
+}
+.average_pending_order::before{
+    background: var(--priceDown);
+}
+.entrust_rate_sell{
+    border: 1px solid var(--priceUp);
+    color: var(--priceUp);
+}
+.entrust_rate_buy{
+    border: 1px solid var(--priceDown);
+    color: var(--priceDown);
+}
+.dataSource{
+    background: var(--bgOpacityColor);
+}
+.order_price,.trade-market-setting  {
+    background: var(--color-bg-1);
+}
+#k-line-chart-container,.tradingview-container{
+    background: var(--bgOpacityColor);
+}
+.chart-header-user-guide-button{
+    color: var(--color-text-2);
+}
+
+.trade_tooltip_a_tag {
+    color: #2354E6; /*UI指定特殊色值*/
+}
+
+/*拖动相关*/
+.dragging-tooltips span{
+    background: #474F66;
+    box-shadow: none;
+}
+.draggable-dragging-border{
+    background: rgba(51, 102, 255, 0.04);
+    border: 2px solid rgba(51, 102, 255, 0.6);
+}
+.trade-panel-container .com_overflow .position {
+    background: var(--color-bg-2);
+}
+.trade-panel-container .com_overflow_box {
+    background: var(--color-bg-1);
+}

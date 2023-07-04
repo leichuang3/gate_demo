@@ -1,0 +1,144 @@
+:root {
+  /* 主色序列 Brand */
+  --color-brand-1: #2354E6;
+  --color-brand-2: #1B41B2;
+  /* 功能色 Functional */
+  --color-funct-1: #17E5A1;
+  --color-funct-2: #11AD7A;
+  --color-funct-3: #CC3D3D;
+  --color-funct-4: #FF860D;
+  --color-funct-5: #B523E6;
+  --color-funct-6: #198CFF;
+  --color-funct-7: #F23030;
+  --color-funct-8: #E53956;
+  /* Other */
+  --color-other-1: #54E623;
+  --color-other-2: #FFC20D;
+  --color-other-3: #E62323;
+  --color-other-4: #F21885;
+  --color-other-5: #5322E6;
+  --color-other-6: #16D9D9;
+  /* 分割线 Divider */
+  --color-divider-1: #E6E9F2;
+  --color-divider-2: #EEF1FA;
+  /* 中性色 Neutral */
+  --color-neutral-1: #ADB5CC;
+  --color-neutral-2: #EEF1FA;
+  --color-neutral-3: #E6E9F2;
+  --color-neutral-4: #F5F6FA;
+  /* 卡片 Card */
+  --color-card-1: #F8FAFD;
+  --color-card-2: #FFFFFF;
+  --color-card-3: #F2F7FF;
+  --color-card-4: #FFFFFF;
+  --color-card-5: #FFFFFF;
+  --color-card-6: #F2F7FF;
+
+  /* 背景 Bg */
+  --color-bg-1: #F8F9FB;
+  --color-bg-2: #F8F9FB;
+  --color-bg-3: #FFFFFF;
+  --color-bg-4: #FFFFFF;
+  /* 文字 Text */
+  --color-text-1: #04091A;
+  --color-text-2: #565D73;
+  --color-text-3: #8D93A6;
+  --color-text-4: #B8BDCC;
+  --color-text-5: #04091A;
+  --color-text-6: #2354E6;
+  /* 渐变色 Gradient */
+  --color-gradient-1: linear-gradient(270deg, #17E5A1 0%, #54E623 91.88%);
+  --color-gradient-2: linear-gradient(90deg, #5322E6 0%, #2323E6 100%);
+  --color-gradient-3: linear-gradient(270deg, #16D9D9 0%, #17E6A1 100%);
+  --color-gradient-4: linear-gradient(90deg, #FFEC1A 0%, #FFAA33 100%);
+  --color-gradient-5: linear-gradient(90deg, #16D9D9 0%, #1979FF 100%);
+  --color-gradient-6: linear-gradient(90deg, #F21885 0%, #E62323 100%);
+  --color-gradient-7: linear-gradient(90deg, #3399FF 0%, #2354E6 100%);
+  --color-gradient-8: linear-gradient(90deg, #C2C5CC 0%, #989FB3 100%);
+  /* 组件色 Component */
+  --color-cmpt-1: rgba(4, 9, 26, 0.9); /* #04091A（90%） */
+  --color-cmpt-2: #FFFFFF;
+  --color-cmpt-3: #FFFCF3;
+  --color-cmpt-4: #FDF5F5;
+  --color-cmpt-5: #FBFCFF;
+  --color-cmpt-6: #F2F4FA;
+  /* 涨跌色 Pump/Dump */
+  --color-pd-1: #CC3D3D;
+  --color-pd-2: #11AD7A;
+  --color-pd-3: #FBEFEF;
+  --color-pd-4: #ECF8F4;
+  /* sroll-bar */
+  --color-scroll-1: #e6e9f2;
+}
+:root .classic-dark {
+  /* 主色序列 Brand */
+  --color-brand-1: #3366FF;
+  --color-brand-2: #1B41B2;
+  /* 功能色 Functional */
+  --color-funct-1: #17E5A1;
+  --color-funct-2: #13BF86;
+  --color-funct-3: #F23D3D;
+  --color-funct-4: #FF860D;
+  --color-funct-5: #B523E6;
+  --color-funct-6: #198CFF;
+  --color-funct-7: #F23030;
+  --color-funct-8: #E53956;
+  /* Other */
+  --color-other-1: #54E623;
+  --color-other-2: #F2B500;
+  --color-other-3: #E62323;
+  --color-other-4: #F21885;
+  --color-other-5: #5322E6;
+  --color-other-6: #16D9D9;
+  /* 分割线 Divider */
+  --color-divider-1: #0F1526;
+  --color-divider-2: #2A2F40;
+  /* 中性色 Neutral */
+  --color-neutral-1: #ADB5CC;
+  --color-neutral-2: #292F40;
+  --color-neutral-3: #252B3A;
+  --color-neutral-4: #212636;
+  /* 卡片 Card */
+  --color-card-1: #1F2433;
+  --color-card-2: #1F2433;
+  --color-card-3: #0F1F4D;
+  --color-card-4: #0F1F4D;
+  --color-card-5: #2A3246;
+  --color-card-6: #141C33;
+  /* 背景 Bg */
+  --color-bg-1: #151926;
+  --color-bg-2: #000000;
+  --color-bg-3: #151926;
+  --color-bg-4: #000000;
+  
+  /* 文字 Text */
+  --color-text-1: #FFFFFF;
+  --color-text-2: #989FB3;
+  --color-text-3: #606880;
+  --color-text-4: #474F66;
+  --color-text-5: #CFD0D2;
+  --color-text-6: #4070FF;
+  /* 渐变色 Gradient */
+  --color-gradient-1: linear-gradient(270deg, #17E5A1 0%, #54E623 91.88%);
+  --color-gradient-2: linear-gradient(90deg, #5322E6 0%, #2323E6 100%);
+  --color-gradient-3: linear-gradient(270deg, #16D9D9 0%, #17E6A1 100%);
+  --color-gradient-4: linear-gradient(90deg, #FFEC1A 0%, #FFAA33 100%);
+  --color-gradient-5: linear-gradient(90deg, #16D9D9 0%, #1979FF 100%);
+  --color-gradient-6: linear-gradient(90deg, #F21885 0%, #E62323 100%);
+  --color-gradient-7: linear-gradient(90deg, #3399FF 0%, #2354E6 100%);
+  --color-gradient-8: linear-gradient(90deg, #ADB5CC 0%, #8691B3 100%);
+  /* 组件色 Component */
+  --color-cmpt-1: rgba(96, 104, 128, 1); /* #474F66（90%） */
+  --color-cmpt-2: #292F40;
+  --color-cmpt-3: #212125;
+  --color-cmpt-4: #261C2A;
+  --color-cmpt-5: #0F1526;
+  --color-cmpt-6: #191C26;
+  /* 涨跌色 Pump/Dump */
+  --color-pd-1: #C23131;
+  --color-pd-2: #0F996B;
+  --color-pd-3: #271C28;
+  --color-pd-4: #15262E;
+  /* sroll-bar */
+  --color-scroll-1: #4d5366;
+}
